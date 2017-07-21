@@ -1,0 +1,19 @@
+# contributor: Jimmy Wu <frozenthrone88@gmail.com>
+# name: tern project
+# key: tern
+# --
+{
+  "libs": [
+    "browser",
+    "jquery"
+  ],
+  "loadEagerly": [
+    "importantfile.js"
+  ],
+  "plugins": {
+    "requirejs": {
+      "baseURL": "./",
+      "paths": {}
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: GET
+# key: GET
+# --
+GET http://127.0.0.1:$1
+$0

@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: dm
+# key: dm
+# group : definitions
+# --
+
+"""
+${1:description}
+
+Parameters:
+${2:parameters}
+
+Returns:
+${3:returns}
+"""

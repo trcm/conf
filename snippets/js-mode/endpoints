@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: endpoints-test
+# key: end-test
+# --
+
+describe('$1s', function() {
+  it('#can create a new $1 v1');
+  it('#cannot create invalid $1 v1');
+  it('#Can retrieve $1s v1');
+  it('#Can retreive an $1 v1');
+  it('#Can use search params to retrieve $1s v1');
+  it('#can update $1s v1');
+  it('#can remove $1s v1');
+});
+$0

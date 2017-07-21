@@ -1,0 +1,8 @@
+#contributer: Tom Midson <midson.trc@gmail.com>
+#name: block 
+#key: block
+# --
+
+{% block $1 %}
+    $2
+{% endblock %}

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: err
+# key: rest
+# --
+return next(new Errors.$1({
+  statusCode: $2,
+  body: {
+    message: '$3',
+    errors: err.errors,
+  },
+}));
+$0

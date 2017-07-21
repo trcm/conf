@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: POST
+# key: pdb
+# --
+POST http://docketbook:$1/v1/$2
+Content-Type: application/json
+
+$0

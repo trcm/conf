@@ -1,0 +1,8 @@
+#contributer: Tom Midson <midson.trc@gmail.com>
+#name: {% if %}
+#key: if
+# --
+
+{% if $1 %}
+   $2
+{% endif%}

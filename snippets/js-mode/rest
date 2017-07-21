@@ -1,0 +1,81 @@
+# -*- mode: snippet -*-
+# name: rest
+# key: rest
+# --
+
+/**
+ *  get$1
+ *  @access private
+ *  @param {}
+ */
+function get$1(req, res, next) {
+  $0
+}
+
+/**
+ *  get$1s
+ *  @access private
+ *  @param {}
+ */
+function get$1s(req, res, next) {
+
+}
+
+/**
+ *  create$1
+ *  @access private
+ *  @param {}
+ */
+function create$1(req, res, next) {
+
+}
+
+/**
+ *  delete$1
+ *  @access private
+ *  @param {}
+ */
+function delete$1(req, res, next) {
+
+}
+
+/**
+ *  update$1
+ *  @access private
+ *  @param {}
+ */
+function update$1(req, res, next) {
+
+}
+
+exports.mount = function(server, before) {
+  server.get({
+    path: '/$2',
+    name: 'Get$1s',
+    version: ['1.0.0'],
+  }, before, get$1s);
+
+  server.get({
+    path: '/$2/:id',
+    name: 'Get$1',
+    version: ['1.0.0'],
+  }, before, get$1);
+
+  server.post({
+    path: '/$2',
+    name: 'Create$1',
+    version: ['1.0.0'],
+  }, before, create$1);
+
+  server.del({
+    path: '/$2/:id',
+    name: 'Delete$1',
+    version: ['1.0.0'],
+  }, before, delete$1);
+
+  server.put({
+    path: '/$2/:id',
+    name: 'Update$1',
+    version: ['1.0.0'],
+  }, before, update$1);
+};

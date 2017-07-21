@@ -1,0 +1,11 @@
+# name: jekyll setup
+# key: set
+# --
+---
+layout: ${1:layout style}
+title: ${2:title}
+date: ${3:date}
+categories: ${4:categories}
+---
+
+$0

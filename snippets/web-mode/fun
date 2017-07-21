@@ -1,0 +1,7 @@
+# contributor: Xah Lee xahlee.org
+# name: es6 function
+# key: fun
+# --
+($1) => {
+  $0
+}

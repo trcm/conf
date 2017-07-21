@@ -1,0 +1,5 @@
+#contributer: Tom Midson <midson.trc@gmail.com>
+#name: extends 
+#key: extends
+# --
+{% extends '$1' %}

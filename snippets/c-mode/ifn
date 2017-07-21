@@ -1,0 +1,9 @@
+# name: ifndef
+# key: ifn
+# --
+#ifndef ${1:name}
+#define $1
+
+$0
+
+#endif

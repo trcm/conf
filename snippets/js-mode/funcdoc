@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: fundoc
+# key: fundoc
+# --
+
+/**
+* $3
+* @access $2
+* @param {$1} $0
+*/

@@ -1,0 +1,10 @@
+# name: center
+# key: ct
+# --
+def center(self):
+    qr = self.frameGeometry()
+    cp = QtGui.QDesktopWidget().availableGeometry().center()
+    qr.moveCenter(cp)
+    self.move(qr.topLeft())
+
+    

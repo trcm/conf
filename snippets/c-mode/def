@@ -1,0 +1,4 @@
+# name: #define
+# key: defe
+# --
+#define $1 $0

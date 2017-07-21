@@ -1,0 +1,5 @@
+#contributer: Tom Midson <midson.trc@gmail.com>
+#name: load 
+#key: load 
+# --
+{% load $1 %}

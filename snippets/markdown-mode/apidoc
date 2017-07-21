@@ -1,0 +1,118 @@
+# -*- mode: snippet -*-
+# name: DB Apidoc outline
+# key: db-doc
+# --
+
+# $1s
+
+## Model
+
+## Get $1
+
+### Query Parameters
+
+Parameter | Default | Description
+----------|---------|------------
+organisation | null | An organisation UUID
+organisationGroup | null | An organisation group UUID
+
+### HTTP Request
+
+`GET http://mapi.service.dc1.consul:8080/$2`
+
+### HTTP Status Code
+
+HTTP Status | Description
+------------|------------
+200 | Success. Will return an array of jobs
+400 | Request Failure.  Will likely be a problem with validation, appropriate error messages will be returned
+404 | Not Found.  The specific order was not found.
+500 | Server Failure.  Internal error with the server.
+
+## Get $1s
+
+### Query Parameters
+
+Parameter | Default | Description
+----------|---------|------------
+organisation | null | An organisation UUID
+organisationGroup | null | An organisation group UUID
+
+### HTTP Request
+
+`GET http://mapi.service.dc1.consul:8080/$2`
+
+### HTTP Status Code
+
+HTTP Status | Description
+------------|------------
+200 | Success. Will return an array of jobs
+400 | Request Failure.  Will likely be a problem with validation, appropriate error messages will be returned
+404 | Not Found.  The specific order was not found.
+500 | Server Failure.  Internal error with the server.
+
+## Create $1
+
+### Query Parameters
+
+Parameter | Default | Description
+----------|---------|------------
+organisation | null | An organisation UUID
+organisationGroup | null | An organisation group UUID
+
+### HTTP Request
+
+`POST http://mapi.service.dc1.consul:8080/$2`
+
+### HTTP Status Code
+
+HTTP Status | Description
+------------|------------
+200 | Success. Will return an array of jobs
+400 | Request Failure.  Will likely be a problem with validation, appropriate error messages will be returned
+404 | Not Found.  The specific order was not found.
+500 | Server Failure.  Internal error with the server.
+
+## Update $1
+
+### Query Parameters
+
+Parameter | Default | Description
+----------|---------|------------
+organisation | null | An organisation UUID
+organisationGroup | null | An organisation group UUID
+
+### HTTP Request
+
+`PUT http://mapi.service.dc1.consul:8080/$2`
+
+### HTTP Status Code
+
+HTTP Status | Description
+------------|------------
+200 | Success. Will return an array of jobs
+400 | Request Failure.  Will likely be a problem with validation, appropriate error messages will be returned
+404 | Not Found.  The specific order was not found.
+500 | Server Failure.  Internal error with the server.
+
+## Remove $1
+
+### Query Parameters
+
+Parameter | Default | Description
+----------|---------|------------
+organisation | null | An organisation UUID
+organisationGroup | null | An organisation group UUID
+
+### HTTP Request
+
+`DELETE http://mapi.service.dc1.consul:8080/$2`
+
+### HTTP Status Code
+
+HTTP Status | Description
+------------|------------
+200 | Success. Will return an array of jobs
+400 | Request Failure.  Will likely be a problem with validation, appropriate error messages will be returned
+404 | Not Found.  The specific order was not found.
+500 | Server Failure.  Internal error with the server.

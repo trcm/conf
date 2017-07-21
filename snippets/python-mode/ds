@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: ds
+# key: ds
+# group : definitions
+# --
+
+"""
+${1:description}
+
+Attributes:
+${2:attributes}
+
+Methods:
+${3:methods}
+"""

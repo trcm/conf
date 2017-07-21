@@ -1,0 +1,5 @@
+# name: Setup file
+# key: set
+# --
+#include <stdio.h>
+#include <stdlib.h>
